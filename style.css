@@ -1,0 +1,5 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url("./Images/Bowl_of_chili.jpg");
+}
