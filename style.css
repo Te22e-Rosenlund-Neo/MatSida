@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-image: url("./Images/Bowl_of_chili.jpg");
+    background-image: url("./Images/Bowl_of_chili_Webp.webp");
 }
 header{
     text-align: center;
