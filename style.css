@@ -101,3 +101,12 @@ li{
     margin-left: 80px;
     font-size: 20px;
 }
+footer{
+    text-align: center;
+    background-color: #9A9494;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+    color: white;
+    font-size:20px ;
+}
