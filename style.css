@@ -93,3 +93,11 @@ grid-column: 1/2;
 li{
     margin-top: 8px;
 }
+
+.InstructionsBottom{
+    margin-top: 30px;
+    background-color: #E8FFA8;
+    margin-right: 80px;
+    margin-left: 80px;
+    font-size: 20px;
+}
