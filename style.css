@@ -33,38 +33,61 @@ main{
     align-items: center;
 }
 .Mid-Left{
-    min-width: 500px;
-    background-color: #E8FFA8;
-    min-width: 500px;
-    max-width: 500px;
-}
-.Mid-Right{
+    margin-top: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 60% 40%;
-    min-height: 400px;
-    min-width: 500px;
-    max-width: 500px;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
     background-color: #E8FFA8;
-
+    height: 400px;
+    width: 500px;
 }
+
 #bild{
     max-width: 200px;
     max-height: 200px;
+    grid-column: 2;
+    grid-row: 3;
+    padding: 5px;
 }
+.Mid-Right{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10% 45% 45%;
+    height: 400px;
+    width: 500px;
+    font-size: 20px;
+    background-color: #E8FFA8;
+
+}
+
 #bild1{
     max-width: 200px;
     max-height: 200px;
     grid-column: 2/2;
-    grid-row: 2/1;
+    grid-row: 2;
+    align-self:center;
+    justify-self: center;
 }
 #bild2{
     max-width: 200px;
     max-height: 200px;
     grid-column: 2/2;
-    grid-row: 2/2;
+    grid-row: 3;
+    align-self:flex-end;
+    justify-self: center;
 }
 #ingredienser{
+    padding-top: 40px;
     grid-column: 1/1;
-    grid-row: 1/2;
+    grid-row: 2/3;
+}
+#Ingred-title{
+justify-self:center ;
+grid-row: 1;
+grid-column: 1/2;
+}
+li{
+    margin-top: 8px;
 }
