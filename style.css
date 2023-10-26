@@ -30,4 +30,41 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+}
+.Mid-Left{
+    min-width: 500px;
+    background-color: #E8FFA8;
+    min-width: 500px;
+    max-width: 500px;
+}
+.Mid-Right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60% 40%;
+    min-height: 400px;
+    min-width: 500px;
+    max-width: 500px;
+    background-color: #E8FFA8;
+
+}
+#bild{
+    max-width: 200px;
+    max-height: 200px;
+}
+#bild1{
+    max-width: 200px;
+    max-height: 200px;
+    grid-column: 2/2;
+    grid-row: 2/1;
+}
+#bild2{
+    max-width: 200px;
+    max-height: 200px;
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+#ingredienser{
+    grid-column: 1/1;
+    grid-row: 1/2;
 }
